@@ -1,29 +1,39 @@
 Quick sort Time complexity
 ==================================
 
-n = 100000
-average_case = 0m0.037s, 0m0.035s
-worst_case = 0m8.090s, 0m8.037s
+n = 50,000
+average_case = 0m0.020s, 0m0.021s
+worst_case = 0m1.999s, 0m2.016s
 ----------------------------------
 
-n = 200000
-average_case = 0m0.064s, 0m0.066s
-worst_case = 0m33.816s, 0m33.314s
+n = 100,000
+average_case = 0m0.034s, 0m0.041s
+worst_case = 0m7.922s, 0m8.928s
 ----------------------------------
 
-n = 400000
-average_case = 0m0.113s, 
-worst_case = 2m3.242s
+n = 150,000
+average_case = 0m0.049s, 0m0.051s
+worst_case = 0m18.261s, 0m18.813s
 ----------------------------------
 
-n = 800000
-average_case = 0m0.199s
-worst_case = 5m14.991s
+n = 200,000
+average_case = 0m0.060s, 0m0.062s
+worst_case = 0m32.432s, 0m34.139s
 ----------------------------------
 
-n = 1600000
-average_case = 0m0.402s
-worst_case = 12m35.135s
+n = 250,000
+average_case = 0m0.071s, 0m0.073s
+worst_case = 0m51.916s, 0m52.103s
+----------------------------------
+
+n = 300,000
+average_case = 0m0.088s, 0m0.089s
+worst_case = <segmentation fault>
+----------------------------------
+
+n = 5,000,000
+average_case = 0m1.298s, 0m1.303s
+worst_case = <segmentation fault>
 ----------------------------------
 
 Possible?
