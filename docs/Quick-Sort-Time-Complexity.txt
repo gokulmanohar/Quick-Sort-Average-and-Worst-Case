@@ -1,47 +1,33 @@
 Quick sort Time complexity
-
-Run 1
-__________________________
+==================================
 
 n = 100000
-average_case = 0m0.033s
-worst_case = 0m10.018s
-__________________________
+average_case = 0m0.037s, 0m0.035s
+worst_case = 0m8.090s, 0m8.037s
+----------------------------------
 
 n = 200000
-average_case = 0m0.062s
-worst_case = 0m38.370s
-__________________________
+average_case = 0m0.064s, 0m0.066s
+worst_case = 0m33.816s, 0m33.314s
+----------------------------------
 
 n = 400000
-average_case = 0m0.112s
+average_case = 0m0.113s, 
 worst_case = 2m3.242s
-__________________________
+----------------------------------
 
 n = 800000
 average_case = 0m0.199s
 worst_case = 5m14.991s
-__________________________
+----------------------------------
 
 n = 1600000
 average_case = 0m0.402s
 worst_case = 12m35.135s
-__________________________
+----------------------------------
 
-Run 2
-__________________________
-
-n = 100000
-average_case = 0m0.056s
-worst_case = 0m8.296s
-__________________________
-
-n = 200000
-average_case = 0m0.085s
-worst_case = 0m33.641s
-__________________________
-
-
+Possible?
+==================================
 
 doubling the input almost quadruples the time in worst case
 all worst_case scenarios were ran on Descending ordered array
