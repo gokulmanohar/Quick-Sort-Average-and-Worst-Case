@@ -12,7 +12,7 @@
 
 // The value of array is to be changed in accordance with the number of elements in the file
 // Otherwise the sorting takes too long to iterate through unnecessary elements
-int numberArray[100000];
+int numberArray[400000];
 
 int partition(int a[], int p, int r)
 {
