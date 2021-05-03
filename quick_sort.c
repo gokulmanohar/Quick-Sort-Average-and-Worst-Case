@@ -10,9 +10,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-// The value of array is to be changed in accordance with the number of elements in the file
-// Otherwise the sorting takes too long to iterate through unnecessary elements
-int numberArray[400000];
+// The size of array has to be changed in accordance with the number of elements in the file
+// Otherwise the sorting algorithm takes too long to iterate through unnecessary elements
+int numberArray[250000];
 
 int partition(int a[], int p, int r)
 {
@@ -98,7 +98,7 @@ int main(int argc, char *argv[])
   // Displaying elements of array
   display(numberArray, 0, 15, "Array before sorting: ");
 
-  // Sorting commence
+  // Quick Sort
   printf("Sorting started\n");
   quickSort(numberArray, 0, length - 1);
   printf("Sorting complete\n");
