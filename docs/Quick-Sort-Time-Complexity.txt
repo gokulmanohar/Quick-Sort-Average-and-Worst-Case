@@ -1,0 +1,53 @@
+Quick sort Time complexity
+
+Run 1
+__________________________
+
+n = 100000
+average_case = 0m0.033s
+worst_case = 0m10.018s
+__________________________
+
+n = 200000
+average_case = 0m0.062s
+worst_case = 0m38.370s
+__________________________
+
+n = 400000
+average_case = 0m0.112s
+worst_case = 2m3.242s
+__________________________
+
+n = 800000
+average_case = 0m0.199s
+worst_case = 5m14.991s
+__________________________
+
+n = 1600000
+average_case = 0m0.402s
+worst_case = 12m35.135s
+__________________________
+
+Run 2
+__________________________
+
+n = 100000
+average_case = 0m0.056s
+worst_case = 0m8.296s
+__________________________
+
+n = 200000
+average_case = 0m0.085s
+worst_case = 0m33.641s
+__________________________
+
+
+
+doubling the input almost quadruples the time in worst case
+all worst_case scenarios were ran on Descending ordered array
+
+Theoretically for n^2 algorithms, with,
+0.8 million input, the system performs 6.4*10^11 operations.
+1.6 million input, the system performs 25.6*10^11 operations.
+
+This means doubling the input quadruples the number of operations.

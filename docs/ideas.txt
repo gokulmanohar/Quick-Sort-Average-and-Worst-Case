@@ -1,0 +1,6 @@
+rename variables
+run 3 sets of each
+graph
+capture screenshots
+number_generation.py input number of numbers
+change pivot
