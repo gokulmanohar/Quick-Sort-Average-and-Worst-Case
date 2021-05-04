@@ -58,7 +58,8 @@ int main(int argc, char *argv[])
   // Calculating the length of the array
   int length = sizeof(numberArray) / sizeof(numberArray[0]);
 
-  // To avoid leading/trailing zeros
+  // To avoid printing leading/trailing zeros if
+  // array size and elements in files doesn't match
   for (int x = 0; x < length; x++)
   {
     numberArray[x] = -1;
