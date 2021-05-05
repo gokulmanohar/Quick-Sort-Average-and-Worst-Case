@@ -7,7 +7,7 @@
 
 // The size of array has to be changed in accordance with the number of elements in the file
 // Otherwise the sorting algorithm takes too long to iterate through unnecessary elements
-int numberArray[250000];
+int numberArray[200000];
 
 int partition(int a[], int p, int r)
 {
