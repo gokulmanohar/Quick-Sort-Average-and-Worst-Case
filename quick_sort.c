@@ -1,10 +1,5 @@
-// Written by Gokul Manohar (CHN18CS045)
-// Roll No. CS18D26
-
 // Two files: average_case.txt & worst_case.txt
 // Supports both command line arguments and choice based inputs
-// Command line argument example './quick_sort average_case.txt'
-// Alternatively run './quick_sort' without any command line argument for choice based input
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -65,12 +60,12 @@ int main(int argc, char *argv[])
     numberArray[x] = -1;
   }
   int choice;
-  char *filename = malloc(20);
-  if (argc >= 2) // Filename is given as command line argument
+  char *filename = malloc(30);
+  if (argc >= 2) // Case: filename is given as command line argument
   {
     strcpy(filename, argv[1]);
   }
-  else // Filename not given as command line argument
+  else // Case: filename not given as command line argument
   {
     printf("1: Average Case Numbers (Random Numbers)\n2: Worst Case Numbers (Sorted Numbers)\nChoice: ");
     scanf("%d", &choice);
