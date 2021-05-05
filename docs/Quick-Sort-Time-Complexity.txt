@@ -38,6 +38,7 @@ worst_case = <segmentation fault>
 
 Possible?
 ==================================
+https://www.wolframalpha.com/input/?i=plot+n%5E2+and+n*log+n+where+n+from+50000+to+250000
 
 doubling the input almost quadruples the time in worst case
 all worst_case scenarios were ran on Descending ordered array
